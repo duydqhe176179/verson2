@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 4, 2024, 9:12:53 AM
+    Author     : trang
+*/
+
+
+
+
+
+
+.head{
+   background-color:  #3BB3F6;
+    
+
+}
+
+
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+ table thead{
+    background: black;
+    color: white;
+    height:  50px;
+}
+table tbody{
+    height:  70px;
+}

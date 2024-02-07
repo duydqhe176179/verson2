@@ -1,0 +1,235 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: rgb(219, 219, 219);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 100px;
+    padding: 20px;
+    background: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15%;
+
+}
+.search_box{
+    display: flex;
+    align-items: center;
+
+}
+.search_box input{
+    padding: 9px;
+    width: 300px;
+    background: rgb(228, 228, 228);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.search_box i{
+    padding: 0.66rem;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -45px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px; /* Adjusted margin */
+}
+.filter-options {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-options label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Add your CSS styles for pagination links here */
+.pagination {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.input-date label{
+    margin-left: 7px;
+}
+.input-date input{
+    margin-left: 5px;
+    width: 150px;
+    text-align: center;
+        
+}
+.input-date  {
+    display: flex;
+    justify-content: normal;
+    
+}
+.input-date button{
+    margin-left: 10px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.search_box input {
+    padding: 9px;
+    width: 300px;
+    background: rgb(228, 228, 228);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_box button {
+    padding: 9px;
+    cursor: pointer;
+    color: #fff;
+    background: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -1px; /* Slight adjustment to align with the input */
+}
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Side menubar section */
+nav{
+    background: #fff;
+}
+.side_navbar{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.side_navbar span{
+    color: gray;
+    margin: 1rem 3rem;
+    font-size: 12px;
+}
+.side_navbar a{
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+.links{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    font-size: 13px;
+}
+.side_navbar a:hover{
+    background: rgb(235, 235, 235);
+}
+.side_navbar .active{
+    border-left: 2px solid rgb(100, 100, 100);
+}
+
+/* Main Body Section */
+.main-body{
+    width: 100%;
+    padding: 1rem;
+}
+.promo_card{
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem 1rem 3rem;
+    background: rgb(37, 37, 37);
+}
+.promo_card h1, .promo_card span, button{
+    text-align: center;
+
+}
+.promo_card button{
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.history_lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 25px;
+    background: #fff;
+    padding: 1rem;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 950px;
+    border: 1px solid #ddd;
+}
+table td, th{
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #ddd;
+}
+table th{
+    font-size: 15px;
+}
+table td{
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+}
+
+
+
